@@ -1,0 +1,800 @@
+{
+ "_comment": "Built-in, locale-independent application aliases. 'names' are Start-menu name prefixes, 'appids' are Start-menu AppIDs/AUMIDs, 'launch' are commands/paths/URIs tried in order, 'process' are image names used to close the app. Users add their own aliases by voice/text ('remember that editor means Visual Studio Code') or in %APPDATA%\\NEXUS\\memory.json.",
+ "Google Chrome": {
+  "aliases": [
+   "chrome",
+   "google chrome",
+   "chrome browser"
+  ],
+  "appids": [
+   "Chrome"
+  ],
+  "names": [
+   "Google Chrome"
+  ],
+  "launch": [
+   "chrome.exe"
+  ],
+  "process": [
+   "chrome.exe"
+  ]
+ },
+ "Microsoft Edge": {
+  "aliases": [
+   "edge",
+   "microsoft edge",
+   "ms edge",
+   "edge browser"
+  ],
+  "appids": [
+   "MSEdge"
+  ],
+  "names": [
+   "Microsoft Edge"
+  ],
+  "launch": [
+   "msedge.exe"
+  ],
+  "process": [
+   "msedge.exe"
+  ]
+ },
+ "Mozilla Firefox": {
+  "aliases": [
+   "firefox",
+   "mozilla firefox",
+   "mozilla"
+  ],
+  "names": [
+   "Firefox",
+   "Mozilla Firefox"
+  ],
+  "launch": [
+   "firefox.exe"
+  ],
+  "process": [
+   "firefox.exe"
+  ]
+ },
+ "Brave": {
+  "aliases": [
+   "brave",
+   "brave browser"
+  ],
+  "names": [
+   "Brave"
+  ],
+  "launch": [
+   "brave.exe"
+  ],
+  "process": [
+   "brave.exe"
+  ]
+ },
+ "Opera": {
+  "aliases": [
+   "opera",
+   "opera gx",
+   "opera browser"
+  ],
+  "names": [
+   "Opera"
+  ],
+  "launch": [
+   "opera.exe"
+  ],
+  "process": [
+   "opera.exe"
+  ]
+ },
+ "Visual Studio Code": {
+  "aliases": [
+   "vscode",
+   "vs code",
+   "code",
+   "visual studio code",
+   "v s code",
+   "visual code"
+  ],
+  "appids": [
+   "Microsoft.VisualStudioCode"
+  ],
+  "names": [
+   "Visual Studio Code"
+  ],
+  "launch": [
+   "%LOCALAPPDATA%\\Programs\\Microsoft VS Code\\Code.exe",
+   "%ProgramFiles%\\Microsoft VS Code\\Code.exe"
+  ],
+  "process": [
+   "Code.exe"
+  ]
+ },
+ "Visual Studio": {
+  "aliases": [
+   "visual studio"
+  ],
+  "names": [
+   "Visual Studio 2022",
+   "Visual Studio 2019",
+   "Visual Studio"
+  ],
+  "launch": [
+   "devenv.exe"
+  ],
+  "process": [
+   "devenv.exe"
+  ]
+ },
+ "Cursor": {
+  "aliases": [
+   "cursor",
+   "cursor editor"
+  ],
+  "names": [
+   "Cursor"
+  ],
+  "process": [
+   "Cursor.exe"
+  ]
+ },
+ "Discord": {
+  "aliases": [
+   "discord"
+  ],
+  "names": [
+   "Discord"
+  ],
+  "process": [
+   "Discord.exe"
+  ]
+ },
+ "Notepad": {
+  "aliases": [
+   "notepad",
+   "note pad",
+   "windows notepad",
+   "bloco de notas",
+   "bloco de nota",
+   "notas",
+   "bloco",
+   "editor de texto"
+  ],
+  "appids": [
+   "Microsoft.WindowsNotepad_8wekyb3d8bbwe!App"
+  ],
+  "launch": [
+   "notepad.exe"
+  ],
+  "process": [
+   "notepad.exe"
+  ]
+ },
+ "File Explorer": {
+  "aliases": [
+   "file explorer",
+   "explorer",
+   "windows explorer",
+   "files",
+   "file manager",
+   "my files",
+   "explorador de arquivos",
+   "explorador",
+   "gerenciador de arquivos",
+   "meus arquivos",
+   "arquivos"
+  ],
+  "launch": [
+   "explorer.exe"
+  ],
+  "process": [],
+  "window_class": "CabinetWClass"
+ },
+ "Calculator": {
+  "aliases": [
+   "calculator",
+   "calc",
+   "windows calculator",
+   "calculadora"
+  ],
+  "appids": [
+   "Microsoft.WindowsCalculator_8wekyb3d8bbwe!App"
+  ],
+  "launch": [
+   "calc.exe"
+  ],
+  "process": [
+   "CalculatorApp.exe",
+   "calc.exe"
+  ]
+ },
+ "Settings": {
+  "aliases": [
+   "settings",
+   "windows settings",
+   "pc settings",
+   "system settings",
+   "configurações",
+   "configuracoes",
+   "configuração",
+   "configuracao",
+   "ajustes",
+   "configurações do windows"
+  ],
+  "launch": [
+   "ms-settings:"
+  ],
+  "process": [
+   "SystemSettings.exe"
+  ]
+ },
+ "Task Manager": {
+  "aliases": [
+   "task manager",
+   "taskmgr",
+   "gerenciador de tarefas"
+  ],
+  "launch": [
+   "taskmgr.exe"
+  ],
+  "process": [
+   "Taskmgr.exe"
+  ]
+ },
+ "Command Prompt": {
+  "aliases": [
+   "command prompt",
+   "cmd",
+   "command line",
+   "prompt de comando",
+   "prompt"
+  ],
+  "launch": [
+   "cmd.exe"
+  ],
+  "process": [
+   "cmd.exe"
+  ]
+ },
+ "PowerShell": {
+  "aliases": [
+   "powershell",
+   "windows powershell",
+   "power shell"
+  ],
+  "launch": [
+   "powershell.exe"
+  ],
+  "process": [
+   "powershell.exe"
+  ]
+ },
+ "Windows Terminal": {
+  "aliases": [
+   "terminal",
+   "windows terminal",
+   "terminal do windows"
+  ],
+  "appids": [
+   "Microsoft.WindowsTerminal_8wekyb3d8bbwe!App"
+  ],
+  "launch": [
+   "wt.exe"
+  ],
+  "process": [
+   "WindowsTerminal.exe"
+  ]
+ },
+ "Paint": {
+  "aliases": [
+   "paint",
+   "ms paint",
+   "mspaint",
+   "microsoft paint"
+  ],
+  "appids": [
+   "Microsoft.Paint_8wekyb3d8bbwe!App"
+  ],
+  "launch": [
+   "mspaint.exe"
+  ],
+  "process": [
+   "mspaint.exe"
+  ]
+ },
+ "Snipping Tool": {
+  "aliases": [
+   "snipping tool",
+   "snip tool",
+   "snip and sketch",
+   "ferramenta de captura",
+   "ferramenta de recorte",
+   "recorte"
+  ],
+  "appids": [
+   "Microsoft.ScreenSketch_8wekyb3d8bbwe!App"
+  ],
+  "launch": [
+   "SnippingTool.exe"
+  ],
+  "process": [
+   "SnippingTool.exe",
+   "ScreenSketch.exe"
+  ]
+ },
+ "Control Panel": {
+  "aliases": [
+   "control panel",
+   "painel de controle"
+  ],
+  "launch": [
+   "control.exe"
+  ],
+  "process": []
+ },
+ "Registry Editor": {
+  "aliases": [
+   "registry editor",
+   "regedit",
+   "registry",
+   "editor do registro",
+   "editor de registro"
+  ],
+  "launch": [
+   "regedit.exe"
+  ],
+  "process": [
+   "regedit.exe"
+  ]
+ },
+ "Microsoft Store": {
+  "aliases": [
+   "microsoft store",
+   "windows store",
+   "store",
+   "app store",
+   "loja",
+   "loja da microsoft",
+   "loja do windows"
+  ],
+  "appids": [
+   "Microsoft.WindowsStore_8wekyb3d8bbwe!App"
+  ],
+  "launch": [
+   "ms-windows-store:"
+  ],
+  "process": [
+   "WinStore.App.exe"
+  ]
+ },
+ "Photos": {
+  "aliases": [
+   "photos",
+   "windows photos",
+   "photo viewer",
+   "fotos",
+   "visualizador de fotos"
+  ],
+  "appids": [
+   "Microsoft.Windows.Photos_8wekyb3d8bbwe!App"
+  ],
+  "launch": [
+   "ms-photos:"
+  ],
+  "process": [
+   "Photos.exe"
+  ]
+ },
+ "Camera": {
+  "aliases": [
+   "camera",
+   "windows camera",
+   "webcam",
+   "câmera",
+   "câmara"
+  ],
+  "appids": [
+   "Microsoft.WindowsCamera_8wekyb3d8bbwe!App"
+  ],
+  "launch": [
+   "microsoft.windows.camera:"
+  ],
+  "process": [
+   "WindowsCamera.exe"
+  ]
+ },
+ "Media Player": {
+  "aliases": [
+   "media player",
+   "windows media player",
+   "music player",
+   "reprodutor multimídia",
+   "reprodutor multimidia",
+   "player de música",
+   "player de musica",
+   "tocador de música"
+  ],
+  "appids": [
+   "Microsoft.ZuneMusic_8wekyb3d8bbwe!Microsoft.ZuneMusic"
+  ],
+  "process": [
+   "Microsoft.Media.Player.exe"
+  ]
+ },
+ "Microsoft Word": {
+  "aliases": [
+   "word",
+   "microsoft word",
+   "ms word"
+  ],
+  "names": [
+   "Word"
+  ],
+  "launch": [
+   "winword.exe"
+  ],
+  "process": [
+   "WINWORD.EXE"
+  ]
+ },
+ "Microsoft Excel": {
+  "aliases": [
+   "excel",
+   "microsoft excel",
+   "ms excel"
+  ],
+  "names": [
+   "Excel"
+  ],
+  "launch": [
+   "excel.exe"
+  ],
+  "process": [
+   "EXCEL.EXE"
+  ]
+ },
+ "Microsoft PowerPoint": {
+  "aliases": [
+   "powerpoint",
+   "power point",
+   "microsoft powerpoint"
+  ],
+  "names": [
+   "PowerPoint"
+  ],
+  "launch": [
+   "powerpnt.exe"
+  ],
+  "process": [
+   "POWERPNT.EXE"
+  ]
+ },
+ "Microsoft Outlook": {
+  "aliases": [
+   "outlook",
+   "microsoft outlook",
+   "email",
+   "mail",
+   "e-mail",
+   "correio"
+  ],
+  "names": [
+   "Outlook",
+   "Outlook (new)"
+  ],
+  "launch": [
+   "outlook.exe"
+  ],
+  "process": [
+   "OUTLOOK.EXE",
+   "olk.exe"
+  ]
+ },
+ "Microsoft Teams": {
+  "aliases": [
+   "teams",
+   "microsoft teams",
+   "ms teams"
+  ],
+  "appids": [
+   "MSTeams_8wekyb3d8bbwe!MSTeams"
+  ],
+  "names": [
+   "Microsoft Teams"
+  ],
+  "process": [
+   "ms-teams.exe",
+   "Teams.exe"
+  ]
+ },
+ "OneDrive": {
+  "aliases": [
+   "onedrive",
+   "one drive"
+  ],
+  "appids": [
+   "Microsoft.SkyDrive.Desktop"
+  ],
+  "names": [
+   "OneDrive"
+  ],
+  "process": [
+   "OneDrive.exe"
+  ]
+ },
+ "Spotify": {
+  "aliases": [
+   "spotify"
+  ],
+  "appids": [
+   "SpotifyAB.SpotifyMusic_zpdnekdrzrea0!Spotify"
+  ],
+  "names": [
+   "Spotify"
+  ],
+  "launch": [
+   "%APPDATA%\\Spotify\\Spotify.exe"
+  ],
+  "process": [
+   "Spotify.exe"
+  ]
+ },
+ "Steam": {
+  "aliases": [
+   "steam"
+  ],
+  "names": [
+   "Steam"
+  ],
+  "process": [
+   "steam.exe"
+  ]
+ },
+ "Adobe Photoshop": {
+  "aliases": [
+   "photoshop",
+   "adobe photoshop"
+  ],
+  "names": [
+   "Adobe Photoshop"
+  ],
+  "launch": [
+   "Photoshop.exe"
+  ],
+  "process": [
+   "Photoshop.exe"
+  ]
+ },
+ "Adobe Premiere Pro": {
+  "aliases": [
+   "premiere",
+   "premiere pro",
+   "adobe premiere",
+   "adobe premiere pro",
+   "premier pro",
+   "premier"
+  ],
+  "names": [
+   "Adobe Premiere Pro"
+  ],
+  "process": [
+   "Adobe Premiere Pro.exe"
+  ]
+ },
+ "Adobe After Effects": {
+  "aliases": [
+   "after effects",
+   "adobe after effects",
+   "aftereffects",
+   "after effect"
+  ],
+  "names": [
+   "Adobe After Effects"
+  ],
+  "process": [
+   "AfterFX.exe"
+  ]
+ },
+ "Adobe Illustrator": {
+  "aliases": [
+   "illustrator",
+   "adobe illustrator"
+  ],
+  "names": [
+   "Adobe Illustrator"
+  ],
+  "process": [
+   "Illustrator.exe"
+  ]
+ },
+ "Adobe Acrobat": {
+  "aliases": [
+   "acrobat",
+   "adobe acrobat",
+   "acrobat reader",
+   "adobe reader"
+  ],
+  "names": [
+   "Adobe Acrobat",
+   "Acrobat Reader"
+  ],
+  "process": [
+   "Acrobat.exe",
+   "AcroRd32.exe"
+  ]
+ },
+ "Blender": {
+  "aliases": [
+   "blender"
+  ],
+  "names": [
+   "Blender"
+  ],
+  "process": [
+   "blender.exe"
+  ]
+ },
+ "OBS Studio": {
+  "aliases": [
+   "obs",
+   "obs studio"
+  ],
+  "names": [
+   "OBS Studio"
+  ],
+  "process": [
+   "obs64.exe"
+  ]
+ },
+ "WhatsApp": {
+  "aliases": [
+   "whatsapp",
+   "whats app"
+  ],
+  "names": [
+   "WhatsApp"
+  ],
+  "process": [
+   "WhatsApp.exe",
+   "WhatsApp.Root.exe"
+  ]
+ },
+ "Telegram": {
+  "aliases": [
+   "telegram"
+  ],
+  "names": [
+   "Telegram"
+  ],
+  "process": [
+   "Telegram.exe"
+  ]
+ },
+ "Slack": {
+  "aliases": [
+   "slack"
+  ],
+  "names": [
+   "Slack"
+  ],
+  "process": [
+   "slack.exe"
+  ]
+ },
+ "Zoom": {
+  "aliases": [
+   "zoom"
+  ],
+  "names": [
+   "Zoom",
+   "Zoom Workplace"
+  ],
+  "process": [
+   "Zoom.exe"
+  ]
+ },
+ "Figma": {
+  "aliases": [
+   "figma"
+  ],
+  "names": [
+   "Figma"
+  ],
+  "process": [
+   "Figma.exe"
+  ]
+ },
+ "Notion": {
+  "aliases": [
+   "notion"
+  ],
+  "names": [
+   "Notion"
+  ],
+  "process": [
+   "Notion.exe"
+  ]
+ },
+ "Obsidian": {
+  "aliases": [
+   "obsidian"
+  ],
+  "names": [
+   "Obsidian"
+  ],
+  "process": [
+   "Obsidian.exe"
+  ]
+ },
+ "VLC": {
+  "aliases": [
+   "vlc",
+   "vlc media player"
+  ],
+  "names": [
+   "VLC media player"
+  ],
+  "launch": [
+   "vlc.exe"
+  ],
+  "process": [
+   "vlc.exe"
+  ]
+ },
+ "Android Studio": {
+  "aliases": [
+   "android studio"
+  ],
+  "names": [
+   "Android Studio"
+  ],
+  "process": [
+   "studio64.exe"
+  ]
+ },
+ "Git Bash": {
+  "aliases": [
+   "git bash"
+  ],
+  "names": [
+   "Git Bash"
+  ],
+  "process": [
+   "mintty.exe"
+  ]
+ },
+ "Claude": {
+  "aliases": [
+   "claude",
+   "claude app",
+   "claude desktop"
+  ],
+  "names": [
+   "Claude"
+  ],
+  "process": [
+   "claude.exe"
+  ]
+ },
+ "Sticky Notes": {
+  "aliases": [
+   "sticky notes",
+   "notas autoadesivas",
+   "notas adesivas",
+   "post-it",
+   "post it",
+   "lembretes"
+  ],
+  "appids": [
+   "Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe!App",
+   "Microsoft.Office.OneNote.MemoryPreview"
+  ],
+  "names": [
+   "Sticky Notes",
+   "Notas Autoadesivas"
+  ],
+  "process": [
+   "Microsoft.Notes.exe"
+  ]
+ }
+}

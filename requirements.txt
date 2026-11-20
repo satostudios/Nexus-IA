@@ -1,0 +1,12 @@
+# NEXUS runtime dependencies (versions tested together on Windows 11, Python 3.11).
+cactus-needle==3.0.5        # Needle 3: the AI / tool-calling core
+PySide6-Essentials==6.11.2  # desktop UI + OpenGL core
+numpy==2.4.6
+sounddevice==0.5.6          # microphone + speaker (PortAudio, bundled)
+faster-whisper==1.2.1       # local speech-to-text (Needle 3 is text-only)
+piper-tts==1.8.0            # local neural text-to-speech
+psutil==7.2.2
+mss==10.2.0                 # screenshots
+pywin32==312                # window control, SAPI fallback voices, shortcuts
+Send2Trash==2.1.0           # deletions go to the Recycle Bin
+pyflakes==4.0.0             # checks programs NEXUS writes (undefined names) without running them

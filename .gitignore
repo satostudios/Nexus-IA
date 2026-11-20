@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+build/
+dist/
+logs/
+*.log
+.pytest_cache/
+*.spec.bak
+# downloaded models live in %LOCALAPPDATA%\NEXUS\models, never in the repo
+assets/models/*
+!assets/models/README.md

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="230" viewBox="0 0 1000 230" role="img" aria-label="Você fala ou digita, o Needle 3 entende, o NEXUS confere, age no Windows e responde em voz">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#CFEFFF"/><stop offset=".55" stop-color="#9FD8FF"/><stop offset="1" stop-color="#B7A8FF"/></linearGradient>
+    <linearGradient id="beam" x1="0" x2="1"><stop offset="0" stop-color="#9FD8FF" stop-opacity="0"/><stop offset=".5" stop-color="#E8F7FF"/><stop offset="1" stop-color="#B7A8FF" stop-opacity="0"/></linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+  <style>
+    .t { font: 600 17px 'Segoe UI', Inter, Helvetica, Arial, sans-serif; fill: #E8E8EA; text-anchor: middle; }
+    .s { font: 400 13px 'Segoe UI', Inter, Helvetica, Arial, sans-serif; fill: #8A8A90; text-anchor: middle; }
+    .ring { fill: #0B0B10; stroke: #ffffff; stroke-opacity: .14; }
+    .lit { fill: none; stroke: #9FD8FF; stroke-width: 2; opacity: 0; animation: lit 5.0s ease-in-out infinite; }
+    @keyframes lit { 0% { opacity: 0; } 6% { opacity: 1; } 26% { opacity: 0; } 100% { opacity: 0; } }
+    .pulse { animation: travel 5.0s linear infinite; }
+    @keyframes travel { 0% { transform: translateX(0); opacity: 0; } 4% { opacity: 1; } 80% { transform: translateX(800px); opacity: 1; } 90%, 100% { transform: translateX(800px); opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .pulse, .lit { animation: none; } }
+  </style>
+  <rect x="0.5" y="0.5" width="999" height="229" rx="22" fill="#030305" stroke="#ffffff" stroke-opacity=".1"/>
+  <path d="M140 92 H860" stroke="#ffffff" stroke-opacity=".12" stroke-width="2" stroke-dasharray="2 7" stroke-linecap="round"/>
+  <g class="pulse">
+    <circle cx="100" cy="92" r="9" fill="#9FD8FF" filter="url(#blur)" opacity=".9"/>
+    <circle cx="100" cy="92" r="3.5" fill="#F2FBFF"/>
+  </g>
+  <g class="node" style="animation-delay:0.00s">
+    <circle cx="100" cy="92" r="38" class="ring"/>
+    <circle cx="100" cy="92" r="38" class="lit" style="animation-delay:0.00s"/>
+    <g transform="translate(82 74) scale(1.5)" fill="none" stroke="url(#g)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21M8.5 21h7"/></g>
+    <text x="100" y="158" class="t">Você</text>
+    <text x="100" y="180" class="s">fala ou digita</text>
+  </g>
+  <g class="node" style="animation-delay:1.00s">
+    <circle cx="300" cy="92" r="38" class="ring"/>
+    <circle cx="300" cy="92" r="38" class="lit" style="animation-delay:1.00s"/>
+    <g transform="translate(282 74) scale(1.5)" fill="none" stroke="url(#g)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/><path d="M4.5 11h13M11 4.5c1.8 2 2.6 4.1 2.6 6.5S12.8 15.5 11 17.5M11 4.5C9.2 6.5 8.4 8.6 8.4 11s.8 4.5 2.6 6.5"/></g>
+    <text x="300" y="158" class="t">Entende</text>
+    <text x="300" y="180" class="s">Needle 3 escolhe a ação</text>
+  </g>
+  <g class="node" style="animation-delay:2.00s">
+    <circle cx="500" cy="92" r="38" class="ring"/>
+    <circle cx="500" cy="92" r="38" class="lit" style="animation-delay:2.00s"/>
+    <g transform="translate(482 74) scale(1.5)" fill="none" stroke="url(#g)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5 19 6v5.5c0 4.3-2.9 7.6-7 9-4.1-1.4-7-4.7-7-9V6z"/><path d="m8.8 12 2.2 2.2 4.3-4.4"/></g>
+    <text x="500" y="158" class="t">Confere</text>
+    <text x="500" y="180" class="s">pode rodar agora?</text>
+  </g>
+  <g class="node" style="animation-delay:3.00s">
+    <circle cx="700" cy="92" r="38" class="ring"/>
+    <circle cx="700" cy="92" r="38" class="lit" style="animation-delay:3.00s"/>
+    <g transform="translate(682 74) scale(1.5)" fill="none" stroke="url(#g)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="4.5" width="17" height="15" rx="2.5"/><path d="M3.5 8.5h17M6.5 6.5h.01M8.8 6.5h.01"/><path d="m10 12.5 2 2-2 2M13.5 16.5h3"/></g>
+    <text x="700" y="158" class="t">Age</text>
+    <text x="700" y="180" class="s">no Windows</text>
+  </g>
+  <g class="node" style="animation-delay:4.00s">
+    <circle cx="900" cy="92" r="38" class="ring"/>
+    <circle cx="900" cy="92" r="38" class="lit" style="animation-delay:4.00s"/>
+    <g transform="translate(882 74) scale(1.5)" fill="none" stroke="url(#g)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path d="M15.5 9a4.5 4.5 0 0 1 0 6M18 6.5a8 8 0 0 1 0 11"/></g>
+    <text x="900" y="158" class="t">Responde</text>
+    <text x="900" y="180" class="s">em voz, em segundos</text>
+  </g>
+</svg>
